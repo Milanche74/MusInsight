@@ -1,0 +1,81 @@
+#fill span {
+    background: -webkit-linear-gradient( rgb(40, 40, 40)35%, rgb(47, 61, 255) 55%, rgb(40, 40, 40) 75% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+
+tbody tr td, .custom-recomm button:hover {
+    background:linear-gradient(180deg, rgb(82, 108, 255) 0%, rgb(113, 131, 228) 50%,rgb(113, 131, 228) 85%,rgb(82, 108, 255) 100%);
+}
+#compName {
+    background: -webkit-linear-gradient( rgb(40, 40, 40)35%, rgb(47, 61, 255) 55%, rgb(40, 40, 40) 75% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.line4 {
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(60, 90, 255) 90%);
+}
+.Literature {
+    background: linear-gradient(to bottom,rgb(60, 90, 255) 30%,rgb(31, 45, 119) 80%,rgb(31, 45, 119) 90%,rgb(40, 40, 40) 100% );
+}
+
+.line3 {
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(82, 108, 255) 90%);
+}
+.Interpretation {
+    background: linear-gradient(to bottom,rgb(99, 123, 255) 20%,rgb(60, 90, 255) 85% );
+}
+.harmony {
+    background: linear-gradient(to bottom,rgb(124, 144, 255) 20%,rgb(99, 123, 255) 85% );
+}
+.line2 {
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(126, 145, 255) 90%);
+}
+.cover {
+    background: linear-gradient(to bottom, rgb(99, 176, 247), rgb(20, 20, 20));
+}
+#macroheader {
+    background: radial-gradient(circle, rgb(221, 198, 143) 4%, rgb(149, 165, 253) 90%);
+}
+#macroheader:hover {
+    background: radial-gradient(circle, rgb(233, 208, 149) 45%, rgb(149, 165, 253) 100%);
+}
+
+#microheader {
+    background: radial-gradient(circle, rgb(236, 211, 150) 45%, rgb(149, 165, 253) 100%);
+}
+.line{
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(149, 165, 253) 90%);
+}
+.Structure {
+    background: linear-gradient(to bottom,rgb(149, 165, 253) 20%,rgb(124, 144, 255) 85% );
+}
+.page-links-list a:hover {
+    background: radial-gradient(circle, rgb(226, 213, 184) 55%, rgb(180, 155, 184) 90%);
+}
+.page-links-list a {
+    background: rgb(212,198,164);
+    background: radial-gradient(circle, rgb(226, 213, 184) 30%, rgb(180, 155, 184) 90%);
+    
+}
+.epoch-heading  {
+    background: -webkit-linear-gradient( rgb(40, 40, 40)35%, rgb(37, 175, 255) 55%, rgb(40, 40, 40) 70% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.Intro {
+    background: rgb(207,180,118);
+    background: linear-gradient(180deg, rgba(207,180,118,1) 0%, rgba(227,195,126,1) 35%,rgba(227,195,126,1) 50%,rgb(235, 163, 113) 60% ,rgb(180, 155, 184) 85%, rgb(149, 165, 253) 100%)
+}    
+@media screen and (max-width: 400px) {
+    .page-links-list a {
+        background: rgb(212,198,164);
+        background: radial-gradient(circle, rgb(255, 228, 163) 30%, rgb(153, 196, 175) 90%);
+        
+    }
+    .Intro {
+        background: rgb(207,180,118);
+        background: linear-gradient(180deg, rgba(207,180,118,1) 0%, rgba(227,195,126,1) 35%,rgb(235, 163, 113) 40% ,rgb(180, 155, 184) 65%, rgb(149, 165, 253) 100%)
+    }   
+}

@@ -1,0 +1,68 @@
+#fill span {
+    background: -webkit-linear-gradient( rgb(40, 40, 40)35%, rgb(73, 163, 37) 55%, rgb(40, 40, 40) 75% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+tbody tr td, .custom-recomm button:hover {
+    background:linear-gradient(180deg, rgb(75, 165, 39) 0%, rgb(94, 206, 50) 50%,rgb(94, 206, 50) 85%,rgb(79, 173, 41) 100%);
+}
+#compName {
+    background: -webkit-linear-gradient( rgb(40, 40, 40)35%, rgb(73, 163, 37) 55%, rgb(40, 40, 40) 75% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.line4 {
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(73, 163, 37) 90%);
+}
+.Literature {
+    background: linear-gradient(to bottom,rgb(73, 163, 37) 30%,rgb(43, 80, 28) 80%,rgb(43, 80, 28) 90%,rgb(40, 40, 40) 100% );
+}
+
+.line3 {
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(88, 196, 46) 90%);
+}
+.Interpretation {
+    background: linear-gradient(to bottom,rgb(88, 196, 46) 20%,rgb(73, 163, 37) 85% );
+}
+.harmony {
+    background: linear-gradient(to bottom,rgb(130, 230, 91) 20%,rgb(88, 196, 46) 85% );
+}
+.line2 {
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(130, 230, 91) 90%);
+}
+.cover {
+    background: linear-gradient(to bottom, rgb(188, 255, 112), rgb(20, 20, 20));
+}
+#macroheader {
+    background: radial-gradient(circle, rgb(255, 241, 207) 8%, rgb(154, 255, 114) 90%);
+}
+#macroheader:hover {
+    background: radial-gradient(circle, rgb(255, 241, 207) 45%, rgb(154, 255, 114) 100%);
+}
+
+#microheader {
+    background: radial-gradient(circle, rgb(255, 241, 207) 45%, rgb(154, 255, 114) 100%);
+}
+.line{
+    background: radial-gradient(circle, rgb(255, 241, 207) 20%, rgb(154, 255, 114) 90%);
+}
+.Structure {
+    background: linear-gradient(to bottom,rgb(154, 255, 114) 20%,rgb(130, 230, 91) 85% );
+}
+.page-links-list a:hover {
+    background: radial-gradient(circle, rgb(255, 241, 207) 40%, rgb(154, 255, 114)  90%);
+}
+.page-links-list a {
+    background: rgb(212,198,164);
+    background: radial-gradient(circle, rgb(255, 241, 207) 10%, rgb(154, 255, 114)  90%);
+}
+.epoch-heading  {
+    background: -webkit-linear-gradient( rgb(40, 40, 40)35%, rgb(67, 128, 33) 55%, rgb(40, 40, 40) 70% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.Intro {
+    background: rgb(207,180,118);
+    background: linear-gradient(180deg, rgba(207,180,118,1) 0%, rgba(227,195,126,1) 35%,rgba(227,195,126,1) 50%,rgb(190, 215, 120) 60% ,rgb(154, 255, 114) 80%);
+}    

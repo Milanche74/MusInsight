@@ -1,0 +1,68 @@
+#fill span {
+    background: -webkit-linear-gradient( rgb(40, 40, 40)35%, rgb(119, 119, 119) 55%, rgb(40, 40, 40) 75% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+tbody tr td, .custom-recomm button:hover {
+    background:linear-gradient(180deg, rgb(131, 131, 131) 0%, rgb(146, 146, 146) 50%,rgb(146, 146, 146) 85%,rgb(131, 131, 131) 100%);
+}
+#compName {
+    background: -webkit-linear-gradient( rgb(40, 40, 40)35%, rgb(119, 119, 119) 55%, rgb(40, 40, 40) 75% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.line4 {
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(121, 121, 121) 90%);
+}
+.Literature {
+    background: linear-gradient(to bottom,rgb(121, 121, 121) 30%,rgb(61, 61, 61) 80%,rgb(61, 61, 61) 90%,rgb(40, 40, 40) 100% );
+}
+
+.line3 {
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(146, 146, 146) 90%);
+}
+.Interpretation {
+    background: linear-gradient(to bottom,rgb(146, 146, 146) 20%,rgb(121, 121, 121) 85% );
+}
+.harmony {
+    background: linear-gradient(to bottom,rgb(167, 167, 167) 20%,rgb(146, 146, 146) 85% );
+}
+.line2 {
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(167, 167, 167) 90%);
+}
+.cover {
+    background: linear-gradient(to bottom, rgb(185, 185, 185), rgb(20, 20, 20));
+}
+#macroheader {
+    background: radial-gradient(circle, rgb(238, 211, 150) 4%, rgb(179, 179, 179) 90%);
+}
+#macroheader:hover {
+    background: radial-gradient(circle, rgb(255, 228, 163) 45%, rgb(179, 179, 179) 100%);
+}
+
+#microheader {
+    background: radial-gradient(circle, rgb(255, 228, 163) 45%, rgb(179, 179, 179) 100%);
+}
+.line{
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(179, 179, 179) 90%);
+}
+.Structure {
+    background: linear-gradient(to bottom,rgb(179, 179, 179) 20%,rgb(167, 167, 167) 85% );
+}
+.page-links-list a:hover {
+    background: radial-gradient(circle, rgb(255, 228, 163) 40%, rgb(179, 179, 179) 90%);
+}
+.page-links-list a {
+    background: rgb(212,198,164);
+    background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(179, 179, 179) 90%);
+}
+.epoch-heading  {
+    background: -webkit-linear-gradient( rgb(40, 40, 40)35%, rgb(121, 121, 121) 55%, rgb(40, 40, 40) 70% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.Intro {
+    background: rgb(207,180,118);
+    background: linear-gradient(180deg, rgba(207,180,118,1) 0%, rgba(227,195,126,1) 35%,rgba(227,195,126,1) 50%,rgb(199, 187, 151) 60% ,rgb(179, 179, 179) 80%,rgb(179, 179, 179) 88%);
+}    
