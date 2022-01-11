@@ -1300,6 +1300,9 @@ section {
         align-self: center;
         gap: 3vh;
     }
+    .custom-recomm h3 {
+        color: var(--clr-light);
+    }
     footer {
         left: 0%;
 
