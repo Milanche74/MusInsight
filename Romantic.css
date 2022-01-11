@@ -39,13 +39,13 @@ tbody tr td {
 #macroheader {
     background: radial-gradient(circle, rgb(238, 211, 150) 4%, rgb(247, 121, 99) 90%);
 }
-#macroheader:hover {
-    background: radial-gradient(circle, rgb(255, 228, 163) 45%, rgb(247, 121, 99) 100%);
+#macroheader:hover, #microheader {
+    background: radial-gradient(circle, rgb(255, 228, 163) 90%, rgb(247, 121, 99) 100%);
 }
 
-#microheader {
+/* #microheader {
     background: radial-gradient(circle, rgb(255, 228, 163) 45%, rgb(247, 121, 99) 100%);
-}
+} */
 .line{
     background: radial-gradient(circle, rgb(255, 228, 163) 20%, rgb(245, 117, 95) 90%);
 }

@@ -46,7 +46,7 @@ h2 {
     
 }
 
-p {
+p{
     font-family: 'Source Serif Pro', serif;
     font-size: var(--step-0);
     text-align: justify;
@@ -185,7 +185,7 @@ p {
     
     .additional-nav {
         position: absolute;
-        transform: translatey(-20vw);
+        transform: translate(0,-20vw);
         width:25.2vw;
         top: 2.9vh;
         display: flex;
@@ -198,17 +198,20 @@ p {
     .additional-nav-visible{
         opacity: 1;
         top: 7.9vh;
-        transform: translateX(0);
+        transform: translate(.5vw,0);
 
     }
     .additional-nav a {
-        background: linear-gradient(to left,rgb(216, 186, 122) 5%, rgb(255, 229, 174) 40%,rgb(255, 229, 174) 65%,rgb(216, 186, 122) 95% );
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background: linear-gradient(to left,rgb(216, 186, 122) 5%, rgb(255, 229, 174) 50%,rgb(255, 229, 174) 51%,rgb(216, 186, 122) 95% );
     }
 
     .additional-nav a:hover{
-        background: linear-gradient(to left,rgb(216, 186, 122) 5%, rgb(255, 229, 174) 30%,rgb(255, 229, 174) 75%,rgb(216, 186, 122) 100% );
+        background: linear-gradient(to left,rgb(216, 186, 122) 5%, rgb(255, 229, 174) 20%,rgb(255, 229, 174) 85%,rgb(216, 186, 122) 100% );
     }
-    #baroque {
+    /* #baroque {
         text-align: left; 
         padding:3vh 1.5vw 0vh 1.5vw;
         height: 100%; 
@@ -217,8 +220,8 @@ p {
     
     #baroque:hover{
         background: linear-gradient(to left,rgb(216, 186, 122) 5%, rgb(255, 229, 174) 43%,rgb(255, 229, 174) 70%,rgb(216, 186, 122) 100% );
+     */
     
-    }
 
 }
 
@@ -355,11 +358,13 @@ h2, p, .page-links-list a {
     font-size: var(--step-1);
     color: rgba(40,40,40,1);
     cursor: pointer;
-    width: 14vw;
+    width: min-content;
+    padding-inline: 1vw;
+    
 }
 
 
-aside p, .portrait-view-swipe {
+aside p, .portrait-view-swipe, .cloud {
     font-family: 'Source Serif Pro', serif;
     font-size: var(--step--1);
     color: rgba(40,40,40,1); 
@@ -404,30 +409,19 @@ aside p, .portrait-view-swipe {
 .cloud {
     position: absolute;
     top: -6vh;
-    left: 18.5vw;
-    width: 40vw;
-    background: rgba(255, 255, 255, 0.555);
+    left: 0vw;
+    min-width: 30vw;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.755);
     opacity: 0;
-    width: 38vw;
-    height: 8vh;
+    padding: 1vh 1vw;
     z-index: 3;
     transition: all, 0.5s;
     border-radius: 5px;
     
     
 }
-#cloud {
-    opacity: 0;
-    z-index: 4;
-    text-align: center;
-    font-size: var(--step--1);
-    position: absolute;
-    top: -5.5vh;
-    left: 17.5vw;
-    width: 40vw;
-    transition: opacity 0.5s;
-    
-}
+
 
 .cloud-visible {
     opacity: 1 !important;

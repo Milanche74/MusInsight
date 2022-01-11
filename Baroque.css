@@ -37,13 +37,11 @@ tbody tr td, .custom-recomm button:hover {
 #macroheader {
     background: radial-gradient(circle, rgb(255, 241, 207) 8%, rgb(154, 255, 114) 90%);
 }
-#macroheader:hover {
-    background: radial-gradient(circle, rgb(255, 241, 207) 45%, rgb(154, 255, 114) 100%);
+#macroheader:hover,#microheader {
+    background: radial-gradient(circle, rgb(255, 241, 207) 95%, rgb(154, 255, 114) 100%);
 }
 
-#microheader {
-    background: radial-gradient(circle, rgb(255, 241, 207) 45%, rgb(154, 255, 114) 100%);
-}
+ 
 .line{
     background: radial-gradient(circle, rgb(255, 241, 207) 20%, rgb(154, 255, 114) 90%);
 }
