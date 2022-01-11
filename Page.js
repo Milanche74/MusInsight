@@ -341,7 +341,7 @@ function handleTouchMove(evt) {
     var xDiff = xDown - xUp;
     // var yDiff = yDown - yUp;
 
-    if ( xDiff > 0 ) {
+    if ( xDiff > 10 ) {
         
 
         macroArticle.style.transform = 'translateX(0%)';
@@ -349,7 +349,9 @@ function handleTouchMove(evt) {
         macro.style.background = lightBackg;
         micro.style.background = darkBackg;
         hoverEffect(micro);
-    } else {
+
+    } else if(xDiff < -10) {
+
         /* left swipe */
         microArticle.style.transform = 'translateX(0%)';
         macroArticle.style.transform = 'translateX(120%)';

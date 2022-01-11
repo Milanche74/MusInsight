@@ -1298,10 +1298,11 @@ section {
     }
 
     .custom-recomm {
+        padding-top: 0;
         width: 60%;
         height: min-content;
         align-self: center;
-        gap: 5vh;
+        gap: 3vh;
     }
     footer {
         left: 0%;
